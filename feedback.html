@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+  </head>
+  <body>
+    <ul class="navbar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="hiringForm.html">Hire Me!</a></li>
+    </ul>
+    <h2>Leave a comment about my website!</h2>
+    <form class="feedback" action="feedback.html" method="get">
+      <label for="name">Name</label><br><br>
+      <input class="name" type="text" name="name" placeholder="Enter your name"><br><br>
+      <label for="comment">Comment</label><br><br>
+      <textarea class="comment" name="comment" rows="8" cols="80" placeholder="Enter comment..."></textarea>
+      <br><br>
+      <button onclick="alertClick()" class="submit" type="button" name="submit">Submit</button>
+    </form>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+      function alertClick(){
+        swal("Thanks!", "Your comment has been submitted. Thanks for supporting me :D");
+      }
+   </script>
+  </body>
+</html>
