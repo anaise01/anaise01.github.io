@@ -1,5 +1,5 @@
 *{
-  font-family: 'JetBrains Mono', 'Courier';
+  font-family: 'JetBrains Mono', monospace;
   color: white;
 }
 body{
@@ -38,7 +38,7 @@ h3{
   color: white;
   background: none;
   display: block;
-  font-family: 'Roboto Light';
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   text-decoration: none;
   padding: 10px 15px;

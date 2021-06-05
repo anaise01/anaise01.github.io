@@ -1,5 +1,5 @@
 *{
-  font-family: 'JetBrains Mono', 'Courier';
+  font-family: 'JetBrains Mono', monospace;
   scroll-behavior: smooth;
   color: white;
 }
@@ -24,7 +24,7 @@ body{
   color: white;
   background: none;
   display: block;
-  font-family: 'Roboto Light';
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   text-decoration: none;
   padding: 10px 15px;
