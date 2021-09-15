@@ -134,7 +134,7 @@ h1{
   background: orange;
 }
 .html{
-  width: 30%;
+  width: 90%;
   animation: html 2s;
 }
 .java{
@@ -158,7 +158,7 @@ h1{
     width: 0%;
   }
   100%{
-    width: 30%;
+    width:90%;
   }
 }
 @keyframes java {
