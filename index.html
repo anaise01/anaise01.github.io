@@ -1,113 +1,72 @@
 <html>
-  <head>
-    <title>Home</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <head>
+        <title>anas' gallery</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <section class="navbar">
+            <div>
+                <nav>
+                    <ul>
+                        <a href="myself.html" id="button1"><li>myself</li></a>   
+                        <a href="index.html" id="title"><li>anaise.web</li></a>
+                        <a href="gallery.html" id="button2"><li>gallery</li></a>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section class = "intro">
+            <div class = "dp">
+                <div>
+                    <img src="intro.jpeg" alt="my face" width="450" height="800">
+                </div>
+            </div>
+            <div class = "container">
+                <div id = "first">
+                    <h1>Well, Hello There...</h1>
+                    <p id="subtitle">Finally, you found my cave. Welcome! :D</p>
+                </div>
+                           
+            </div>
+        </section>
+        <section class="about">
+            <h1>About me</h1>
+            <div class="bio">
+                <div class="bio-card">
+                    <h2>introduction.</h2>
+                    <p>Hi I'm Anas. My birth year is 2001 and I am currently a student of Diploma in Computer Science.</p>
+                    <p>Other than being a student, I am also a hobbyist photographer and can develop my own website like you are looking now.</p>
+                </div>
+                <div class="bio-card">
+                    <h2>experiences.</h2>
+                    <p>In 2019, I work as Sales Assitance in All IT Hypermarket.</p>
+                    <p>In 2020, I work as kitchen crew in Pizza Hut Teluk Pulai.</p>
+                    <p>In 2021, I have my internship in ICT Department, SSM.</p>
+                </div>
+                <div class="bio-card">
+                    <h2>education history.</h2>
+                    <p>2014-2016: SM SAINS BAGAN DATO(PT3: 6A3B1D)</p>
+                    <p>2017-2018: SMK TINGGI KLANG(SPM: 4A4B1D)</p>
+                    <p>2019-2022: UITM KUALA TERENGGANU(DIPLOMA IN COMPUTER SCIENCE)</p>
+                </div>
+                <div class="bio-card">
+                    <h2>current project.</h2>
+                    <p>I am still trying to learn game development using godot engine and will keep on updating this website with new things.</p>
+                </div>
+                <div class="bio-card">
+                    <h2>skills.</h2>
+                    <p>WEB DEVELOPMENT</p>
+                    <span class="bar"><span class="web-dev"></span></span>
+                    <p>GAME DEVELOPMENT</p>
+                    <span class="bar"><span class="game-dev"></span></span>
+                    <p>PHOTO EDITING</p>
+                    <span class="bar"><span class="photography"></span></span>
+                </div>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet">
-  </head>
-  <body id="home">
-    <section class="header">
-      <p class="intro">Hye, I am Anas.Welcome to my portfolio!</p><br><br>
-      <audio controls autoplay>
-        <source src="welcome.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </section>
-
-      <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href=#contact>Contact</a></li>
-      </ul>
-    <h1  id="about"><br><br>About Me:</h1>
-    <section class="about">
-      <div class="myself">
-        <br>
-        <br>Hi! my name is Anas. I am a 20 year old computer enthusiast. Currently, I am studying Computer Science in Terengganu, Malaysia.
-      </div>
-      <div class="experience"><br>Experience: <br> Working as sales assistance for IT product or hardware that needed by computer for 3 months after my SPM.</div>
-      <div class="education"><br>
-        <table>
-          <caption>Education:</caption>
-          <tr>
-            <th>Institutions</th>
-            <th>Achievements</th>
-          </tr>
-          <tr>
-            <td>SM Sains Bagan Dato</td>
-            <td>PT3: 6A3B1D</td>
-          </tr>
-          <tr>
-            <td>HighSchool Klang</td>
-            <td>SPM: 4A4B1D</td>
-          </tr>
-          <tr>
-            <td>UITM Kuala Terengganu</td>
-            <td>CGPA(Dip. in Comp. Science): 3.65</td>
-          </tr>
-        </table>
-      </div>
-      <div class="project"><br>Personal Project: <br>For Now, I am still working on an indie game using pygame and learn to draw some pixel art.</div>
-      <div class="skills">
-        Skills:
-        <li>HTML/CSS <span class="bar"><span class="html"></span></span></li>
-        <li>JAVA <span class="bar"><span class="java"></span></span></li>
-        <li>PYTHON <span class="bar"><span class="python"></span></span></li>
-        <li>C++ <span class="bar"><span class="cPlus"></span></span></li>
-        <li>C# <span class="bar"><span class="cHash"></span></span></li>
-      </div>
-      <div class="language">
-        <br>Languages:
-        <li>Malay <span class="bar"><span class="malay"></span></span></li>
-        <li>English <span class="bar"><span class="english"></span></span></li>
-        <li>Deutsch <span class="bar"><span class="deutsch"></span></span></li>
-      </div>
-      <div class="interests">
-        <br>Interests:<br>
-        <li>gaming</li>
-        <li>IT</li>
-        <li>Comp. Hardware</li>
-        <li>Comp. Software</li>
-        <li>coding</li>
-        <li>game dev</li>
-        <li>web dev</li>
-      </div>
-    </section>
-    <hr>
-    <section class="contact" id="contact">
-      <h3>For any inquiries, may contact me use any platform below or follow my social media for any update:</h3>
-      <div class="wrapper">
-         <a class="button" href="https://www.facebook.com/muhammad.akmalnor/" target="_blank">
-            <div class="icon">
-               <i class="fab fa-facebook-f"></i>
+                <div class="bio-card">
+                    
+                </div>
             </div>
-         </a>
-         <a class="button" href="https://twitter.com/anasddev" target="_blank">
-            <div class="icon">
-               <i class="fab fa-twitter"></i>
-            </div>
-         </a>
-         <a class="button" href="https://www.instagram.com/anaise_dev/" target="_blank">
-            <div class="icon">
-               <i class="fab fa-instagram"></i>
-            </div>
-         </a>
-         <a class="button" href="https://wa.link/kxkp90" target="_blank">
-            <div class="icon">
-               <i class="fab fa-whatsapp"></i>
-            </div>
-         </a>
-         <a class="button" href="https://t.me/anaises" target="_blank">
-            <div class="icon">
-               <i class="fab fa-telegram"></i>
-            </div>
-         </a>
-      </div>
-    </section>
-  </body>
+        </section>
+    </body>
 </html>
